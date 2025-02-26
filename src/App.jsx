@@ -54,7 +54,7 @@ function App() {
         />
       </div>
       <div className="flex items-center gap-3 mb-2">
-        <button className='w-full font-medium h-[52px] rounded-lg bg-[#f9f9f9] hover:bg-black/10 cursor-pointer transition-all duration-300 text-sm font-medium' onClick={() => { setJsonData(''); setValue('') }}>Clear</button>
+        <button className='w-full font-medium h-[52px] rounded-lg bg-[#f9f9f9] hover:bg-black/10 cursor-pointer transition-all duration-300 text-sm font-medium' onClick={() => { setJsonData(null); setValue('') }}>Clear</button>
         <button className='w-full font-medium h-[52px] rounded-lg bg-[#f9f9f9] hover:bg-black/10 cursor-pointer transition-all duration-300 text-sm font-medium' onClick={handleAddKeyValue}>Add</button>
       </div>
       <div className="mb-3">
