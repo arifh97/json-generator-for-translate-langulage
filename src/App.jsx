@@ -41,14 +41,14 @@ function App() {
       <h1 className='text-center font-semibold text-3xl md:text-4xl mb-6 lg:mb-8'>Custom JSON Generator</h1>
       <div className='flex items-center gap-3 mb-3'>
         <textarea
-          className='w-full h-[200px] border border-solid border-gray-200 !outline-none rounded-lg p-4'
-          placeholder="Menu Name (e.g., About)"
+          className='w-full resize-none h-[200px] border border-solid border-gray-200 !outline-none rounded-lg p-4'
+          placeholder="Variables (e.g:About)"
           value={key}
           onChange={(e) => setKey(e.target.value)}
         />
         <textarea
-          className='w-full h-[200px] border border-solid border-gray-200 !outline-none rounded-lg p-4'
-          placeholder="Link (e.g., https://yourwebsite.com/about)"
+          className='w-full resize-none h-[200px] border border-solid border-gray-200 !outline-none rounded-lg p-4'
+          placeholder="Values (e.g:About)"
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
